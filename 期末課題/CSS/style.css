@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+body{
+    font-size: 16px;
+    
+    font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴProN", Meiryo, "MS Pゴシック", sans-serif;
+        
+}
+
+h1{
+        font-size:240%;
+        color: crimson;
+        background-color: aqua;
+}
+        
+#abc {
+        color: orange;
+        background-color: deeppink;
+        text-align: center;
+}

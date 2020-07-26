@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <title>質問フォーム</title>
+    </head>
+
+    <body>
+   
+            <h1>GABA(Yura)へ質問をどうぞ</h1>    
+        
+            <form action="#" method="get">
+            
+                <p>
+                    <label for="lastname">姓：</label>
+                    <input type="text" name="lastname" id="last-name" placeholder="姓" />
+                
+                    <label>
+                        名：
+                        <input type="text"
+ name="firstname" />
+                    </label>
+                </p>
+                
+                <p>
+                    <label for="password">パスワード：</label>
+                    <input type="password" name="password" id="password" />
+                
+                </p>
+                
+                <p>
+                    <input type="checkbox" name="agreement" id="agreement" checked />
+                    <label for="agreement">プライバシーポリシーに同意する</label>
+                </p>
+                
+                <p>
+                    <label><input type="radio" name="seibetsu" value="female" />女性</label>
+                    <label><input type="radio" name="seibetsu" value="male" />男性</label>
+                    <label><input type="radio" name="seibetsu" value="other" />その他</label>
+                </p>
+                
+                <p>
+                    <label for="requests">要望：</label>
+                    <textarea id="requests"
+                     name="requests" rows="8" cols="60"></textarea>
+                </p>
+                
+                <p>
+                    <label for="birthday">誕生日：</label>
+                    <input type="date" id="birthday" />
+                </p>
+                
+                <p>
+                    <label>
+                        好きな色：
+                        <input type="color" />
+                    </label>
+                </p>
+                
+                <p>
+                    <label>
+                        電話番号：
+                        <input type="tel" />
+                    </label>
+                </p>
+                
+                <p>
+                    <label>
+                        メールアドレス：
+                        <input type="email" />
+                    </label>
+                </p>
+                
+                <p>
+                    <label>
+                    ファイル：
+                    <input type="file" />
+                    </label>
+                </p>
+                
+                <p>
+                    <input type="submit" value="送信する" />
+                    <input type="reset" value="リセット" />
+                </p>
+                
+                </form>
+        
+    </body>   
+    
+</html>
